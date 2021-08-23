@@ -9,7 +9,6 @@ export default function MainPage() {
   const [productsList, setProductsList] = useState([]);
 
   useEffect(() => {
-    console.log(process.env.REACT_APP_API_BASE_URL);
     const response = axios.get(
       `${process.env.REACT_APP_API_BASE_URL}/products`
     );
