@@ -1,11 +1,12 @@
 import axios from "axios";
-import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
-import Loader from "react-loader-spinner";
+import styled from "styled-components";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import styled from "styled-components";
-import ImageGallery from "../../components/ImageGallery.js";
-import ProductInfo from "../../components/ProductInfo/index.js";
+import Loader from "react-loader-spinner";
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+
+import ImageGallery from "../../components/ImageGallery";
+import ProductInfo from "../../components/ProductInfo";
 
 export default function Product() {
   const [productInfo, setProductInfo] = useState();

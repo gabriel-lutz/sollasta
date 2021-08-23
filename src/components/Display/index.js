@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import styled from "styled-components";
+
 import ImageBox from "./ImageBox";
 
 export default function Display({ productsList, category }) {

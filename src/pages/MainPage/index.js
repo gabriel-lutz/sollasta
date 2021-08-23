@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+
 import Banners from "../../components/Banners";
 import Display from "../../components/Display";
 import Highlighted from "../../components/Highlighted";
