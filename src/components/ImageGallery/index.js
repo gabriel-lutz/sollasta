@@ -26,6 +26,7 @@ export default function ImageGallery({
 
 const Wrapper = styled.div`
   padding: 20px;
+  position: relative;
   height: 90%;
   width: 50vw;
   overflow: hidden;
@@ -54,4 +55,8 @@ const Images = styled.div`
 
 const DisplayingImage = styled.img`
   width: 300px;
+  transition: 0.5s ease-in;
+  &:hover{
+    width:500px;
+  }
 `;
