@@ -10,7 +10,7 @@ export default function Highlighted() {
 
   return (
     <Container>
-      <img src={imgArray[0]} alt="logo"></img>
+      <img src={imgArray[3]} alt="logo"></img>
     </Container>
   );
 }
