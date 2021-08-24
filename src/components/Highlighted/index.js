@@ -1,16 +1,10 @@
 import styled from "styled-components";
 
 export default function Highlighted() {
-  const imgArray = [
-    "https://i.ibb.co/dpZmkHm/5-1.png",
-    "https://i.ibb.co/nzsv2jC/E-3.png",
-    "https://i.ibb.co/fqyQ860/8.png",
-    "https://i.ibb.co/TcsqcFc/1.png",
-  ];
 
   return (
     <Container>
-      <img src={imgArray[3]} alt="logo"></img>
+      <img src="https://i.ibb.co/L8rQ2hJ/OKK.png" alt="logo"></img>
     </Container>
   );
 }
