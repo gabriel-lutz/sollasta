@@ -42,8 +42,8 @@ export default function Product() {
 
 const Container = styled.div`
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin-top: 100px;
-  height: calc(100vh - 100px);
+  margin-top: 150px;
+  height: auto;
+  margin-bottom: 30px;
 `;

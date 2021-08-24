@@ -26,18 +26,19 @@ export default function ImageGallery({
 
 const Wrapper = styled.div`
   padding: 20px;
-  position: relative;
+  position: sticky;
+  top: 150px;
   height: 90%;
   width: 50vw;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  border-right: 1px solid grey;
 `;
 
 const Images = styled.div`
   height: 100%;
+  max-height: 400px;
   width: 200px;
   display: flex;
   flex-direction: column;
@@ -54,9 +55,5 @@ const Images = styled.div`
 `;
 
 const DisplayingImage = styled.img`
-  width: 300px;
-  transition: 0.5s ease-in;
-  &:hover{
-    width:500px;
-  }
+  width: 400px;
 `;
